@@ -254,7 +254,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2025-06-26 00:23:38 / 修改时间：06:19:28" itemprop="dateCreated datePublished" datetime="2025-06-26T00:23:38+08:00">2025-06-26</time>
+      <time title="创建时间：2025-06-26 00:23:38 / 修改时间：07:02:20" itemprop="dateCreated datePublished" datetime="2025-06-26T00:23:38+08:00">2025-06-26</time>
     </span>
 
   
@@ -270,68 +270,81 @@
           <h1 id="安装Node-js，git，hexo以及检查安装"><a href="#安装Node-js，git，hexo以及检查安装" class="headerlink" title="安装Node.js，git，hexo以及检查安装"></a>安装Node.js，git，hexo以及检查安装</h1><ol>
 <li>进入网站Node.js安装网站</li>
 </ol>
-<p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn">链接</a></p>
-<p><img src="/image.png" alt="安装图片"></p>
+<p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn">node下载网站链接</a></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/image.png" alt="安装图片"></p>
 <p>分别点击红圈按键，下载Node.js。</p>
-<p><img src="/image-1.png" alt="安装图片"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/image-1.png" alt="安装图片"></p>
 <ol start="2">
 <li>安装git</li>
 </ol>
-<p><a target="_blank" rel="noopener" href="https://git-scm.com/downloads">链接</a></p>
+<p><a target="_blank" rel="noopener" href="https://git-scm.com/downloads">git下载链接</a></p>
 <p>同样按顺序点击红圈按钮。<br>需要根据不同的操作系统选择所需的下载，我这里选择的是Windows版。</p>
-<p><img src="/image-2.png" alt="安装图片"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/image-2.png" alt="安装图片"></p>
 <ol start="3">
 <li>安装hexo</li>
 </ol>
 <p>按win+R键，打开cmd，进入事先创建好的blog文件夹，输入npm install -g hexo-cli，自动下载hexo。</p>
 <p>命令：npm install -g hexo-cli</p>
-<p><img src="/image-3.png" alt="安装图片"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/image-3.png" alt="安装图片"></p>
 <ol start="4">
 <li>检查</li>
 </ol>
 <p>同样在cmd中分别输入下列命令，检查安装。出现版本信息说明安装成功。</p>
 <p>命令：hexo -v</p>
-<p><img src="/image-4.png" alt="安装图片"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/image-4.png" alt="安装图片"></p>
 <p>命令：git -v<br>命令：node -v<br>命令：npm -v</p>
-<p><img src="/image-5.png" alt="安装图片"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/image-5.png" alt="安装图片"></p>
 <h1 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h1><p>进入GitHub网站，注册账号。<br>点击Create repository。</p>
 <p>注意：仓库名字必须和账号名字相同！！后面加.github.io。</p>
-<p><img src="/image-6.png" alt="仓库图片"></p>
-<h1 id="配置密钥"><a href="#配置密钥" class="headerlink" title="配置密钥"></a>配置密钥</h1><p>桌面右键点击git bash。<br>代码：ssh-keygen -t rsa -C “<a href="mailto:&#120;&#x69;&#101;&#49;&#51;&#55;&#x31;&#x38;&#56;&#x30;&#48;&#53;&#x36;&#x32;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#109;">xie13718800562@163.com</a>“<br>（引号内填写自己的邮箱，我这里填写的是自己的）<br>然后点4下回车。</p>
-<p><img src="/d39f1e49f5819752557ab77754c4a677.png" alt="密钥"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/image-6.png" alt="仓库图片"></p>
+<h1 id="配置密钥"><a href="#配置密钥" class="headerlink" title="配置密钥"></a>配置密钥</h1><p>桌面右键点击git bash。<br>代码：ssh-keygen -t rsa -C “<a href="mailto:&#120;&#105;&#x65;&#49;&#x33;&#55;&#x31;&#x38;&#x38;&#48;&#48;&#53;&#x36;&#50;&#x40;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;">xie13718800562@163.com</a>“<br>（引号内填写自己的邮箱，我这里填写的是自己的）<br>然后点4下回车。</p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/d39f1e49f5819752557ab77754c4a677.png" alt="密钥"></p>
 <p>然后进入c盘，用户，管理员文件夹，进入.ssh文件夹，打开以.pub为后缀的文件。<br>打开后直接复制所有内容。</p>
 <p>再次打开GitHub，选择settings中的ssh and gpg keys。<br>点击新建一个ssh keys。</p>
 <p>将刚刚全选复制的代码内容粘贴进入。之后创建。</p>
 <p>回到桌面，右键git bash。<br>输入命令验证。</p>
-<p>命令：ssh -T <a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#116;&#x68;&#x75;&#98;&#46;&#99;&#x6f;&#109;">git@github.com</a><br>回车。</p>
+<p>命令：ssh -T <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#x6d;">git@github.com</a><br>回车。</p>
 <p>输入：yes<br>回车。</p>
-<p><img src="/469b7a113b0ecf390ad599ed6e55032e.png" alt="验证密钥"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/469b7a113b0ecf390ad599ed6e55032e.png" alt="验证密钥"></p>
 <p><strong>！！问题！！</strong><br>这里前两次是出现了一个ssh: connect to host github.com port 22: connection refused的报错。<br>是因为我使用了加速器，关闭后即可验证成功。</p>
 <h1 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h1><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>在创建好的blog文件夹内右键git bash。<br>输入命令进行初始化。</p>
 <p>命令：hexo init</p>
-<p><img src="/765a2b87fa0c1118cda4bc9dbee21520.png" alt="初始化"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/765a2b87fa0c1118cda4bc9dbee21520.png" alt="初始化"></p>
 <p>命令：npx hexo install<br>命令：hexo g<br>命令：hexo s<br>生成并保存。</p>
 <p>打开所给链接 <a target="_blank" rel="noopener" href="http://localhost:4000/">hexo博客</a></p>
-<p><img src="/bcd4dd1fddf977169400da1d8ae45acb.png" alt="博客"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/bcd4dd1fddf977169400da1d8ae45acb.png" alt="博客"></p>
 <p>回到输入框，按CTRL+c停止。</p>
 <p><strong>！！问题！！</strong></p>
 <p>在hexo s时遇到的端口占用问题。</p>
-<p><img src="/c476c9342221469dd294a985b58e71ad.png" alt="端口占用"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/c476c9342221469dd294a985b58e71ad.png" alt="端口占用"></p>
 <p>问题如图。我先是根据csnd中所查询到的办法，输入命令netstat -aon|findstr 4000，试图查找到占用4000端口的程序并结束它，但在使用后发现依旧不能正常运行。</p>
 <p>所以我只能再尝试第二种方法。<br>在_config.yml内添加下列代码，更改hexo s运行时默认的端口号。<br>server:<br>  port: 4001<br>  compress: true<br>  header: true</p>
 <p>结果就是可以正常运行了。</p>
-<p><img src="/f1eff6dd7aa829de182d1a8f4532db38.png" alt="端口"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/f1eff6dd7aa829de182d1a8f4532db38.png" alt="端口"></p>
 <h1 id="上线"><a href="#上线" class="headerlink" title="上线"></a>上线</h1><p>打开blog文件夹中的_config文件，做出如下修改。</p>
-<p><img src="/image-7.png" alt="上线博客"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/image-7.png" alt="上线博客"></p>
 <p>根据个人需要，更改title，subtitle，author，language和时区等等信息。</p>
 <p>更改repository，输入本人GitHub仓库的链接，然后保存退出。</p>
 <p>在文件夹里git bash，分别输入以下命令。</p>
 <p>命令：hexo g<br>命令：hexo d<br>生成并上传。</p>
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>输入命令。</p>
-<p>命令：git config –global user.email “<a href="mailto:&#x78;&#105;&#101;&#x31;&#x33;&#x37;&#49;&#56;&#x38;&#x30;&#x30;&#x35;&#54;&#x32;&#64;&#x31;&#54;&#x33;&#46;&#x63;&#x6f;&#109;">xie13718800562@163.com</a>“<br>命令：git config –global user.name “yueShaoHua137”<br>具体邮箱和名字改为自己的即可。</p>
+<p>命令：git config –global user.email “<a href="mailto:&#x78;&#105;&#x65;&#x31;&#x33;&#x37;&#x31;&#56;&#56;&#x30;&#x30;&#53;&#x36;&#50;&#64;&#x31;&#x36;&#51;&#x2e;&#99;&#111;&#109;">xie13718800562@163.com</a>“<br>命令：git config –global user.name “yueShaoHua137”<br>具体邮箱和名字改为自己的即可。</p>
 <p>然后再一次上传，会弹出一个登录窗口。</p>
-<p><img src="/6dc6319f63fe26f595095b3bad49d693.jpg" alt="登录"></p>
+<p><img src="https://github.com/yueShaoHua137/my-images/raw/main/6dc6319f63fe26f595095b3bad49d693.jpg" alt="登录"></p>
 <p><strong>然后就可以输入链接进入自己的博客了！</strong></p>
+<h1 id="参考资料链接"><a href="#参考资料链接" class="headerlink" title="参考资料链接"></a>参考资料链接</h1><h2 id="csdn"><a href="#csdn" class="headerlink" title="csdn"></a>csdn</h2><p>【Hexo s时报错FATAL Port 4000 has been used. Try other port instead. - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_62882080/article/details/129797273?sharetype=blog&shareId=129797273&sharerefer=APP&sharesource=2401_89037583">https://blog.csdn.net/weixin_62882080/article/details/129797273?sharetype=blog&amp;shareId=129797273&amp;sharerefer=APP&amp;sharesource=2401_89037583</a></p>
+<p>【hexo+github搭建个人博客网站问题汇总和解决办法 - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_53101767/article/details/121587574?sharetype=blog&shareId=121587574&sharerefer=APP&sharesource=2401_89037583&sharefrom=link">https://blog.csdn.net/qq_53101767/article/details/121587574?sharetype=blog&amp;shareId=121587574&amp;sharerefer=APP&amp;sharesource=2401_89037583&amp;sharefrom=link</a></p>
+<p>【利用 GitHub 和 Hexo 搭建个人博客【保姆教程】 - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_43883917/article/details/143885553?sharetype=blog&shareId=143885553&sharerefer=APP&sharesource=2401_89037583&sharefrom=link">https://blog.csdn.net/weixin_43883917/article/details/143885553?sharetype=blog&amp;shareId=143885553&amp;sharerefer=APP&amp;sharesource=2401_89037583&amp;sharefrom=link</a></p>
+<p>【Hexo+github个人博客搭建与内容更新 - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/Henryhhc/article/details/130167806?sharetype=blog&shareId=130167806&sharerefer=APP&sharesource=2401_89037583&sharefrom=link">https://blog.csdn.net/Henryhhc/article/details/130167806?sharetype=blog&amp;shareId=130167806&amp;sharerefer=APP&amp;sharesource=2401_89037583&amp;sharefrom=link</a></p>
+<p>【GitHub+Hexo搭建个人博客 - 详细教程 - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/lang_xw/article/details/143050877?sharetype=blog&shareId=143050877&sharerefer=APP&sharesource=2401_89037583&sharefrom=link">https://blog.csdn.net/lang_xw/article/details/143050877?sharetype=blog&amp;shareId=143050877&amp;sharerefer=APP&amp;sharesource=2401_89037583&amp;sharefrom=link</a></p>
+<p>【hexo+Github建立个人博客时，hexo init命令出现错误，Permission denied - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/yizhixiaoyang/article/details/106464964?sharetype=blog&shareId=106464964&sharerefer=APP&sharesource=2401_89037583&sharefrom=link">https://blog.csdn.net/yizhixiaoyang/article/details/106464964?sharetype=blog&amp;shareId=106464964&amp;sharerefer=APP&amp;sharesource=2401_89037583&amp;sharefrom=link</a></p>
+<p>【证书SSL certificate problem: unable to get local issuer certificate - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/zouyang920/article/details/146149235?sharetype=blog&shareId=146149235&sharerefer=APP&sharesource=2401_89037583&sharefrom=link">https://blog.csdn.net/zouyang920/article/details/146149235?sharetype=blog&amp;shareId=146149235&amp;sharerefer=APP&amp;sharesource=2401_89037583&amp;sharefrom=link</a></p>
+<p>【git SSL certificate problem: unable to get local issuer certificate - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/catoop/article/details/144434926?sharetype=blog&shareId=144434926&sharerefer=APP&sharesource=2401_89037583&sharefrom=link">https://blog.csdn.net/catoop/article/details/144434926?sharetype=blog&amp;shareId=144434926&amp;sharerefer=APP&amp;sharesource=2401_89037583&amp;sharefrom=link</a></p>
+<p>【FATAL Port 4000 has been used. Try other port instead. - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_45627031/article/details/108359235?sharetype=blog&shareId=108359235&sharerefer=APP&sharesource=2401_89037583&sharefrom=link">https://blog.csdn.net/weixin_45627031/article/details/108359235?sharetype=blog&amp;shareId=108359235&amp;sharerefer=APP&amp;sharesource=2401_89037583&amp;sharefrom=link</a></p>
+<p>【hexo 个人博客搭建 - CSDN App】<a target="_blank" rel="noopener" href="https://blog.csdn.net/egffyty/article/details/108149343?sharetype=blog&shareId=108149343&sharerefer=APP&sharesource=2401_89037583&sharefrom=link">https://blog.csdn.net/egffyty/article/details/108149343?sharetype=blog&amp;shareId=108149343&amp;sharerefer=APP&amp;sharesource=2401_89037583&amp;sharefrom=link</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Soverngity/article/details/110234717?fromshare=blogdetail&sharetype=blogdetail&sharerId=110234717&sharerefer=PC&sharesource=2401_88569914&sharefrom=from_link">https://blog.csdn.net/Soverngity/article/details/110234717?fromshare=blogdetail&amp;sharetype=blogdetail&amp;sharerId=110234717&amp;sharerefer=PC&amp;sharesource=2401_88569914&amp;sharefrom=from_link</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_59039063/article/details/132459418?fromshare=blogdetail&sharetype=blogdetail&sharerId=132459418&sharerefer=PC&sharesource=2401_88569914&sharefrom=from_link">https://blog.csdn.net/qq_59039063/article/details/132459418?fromshare=blogdetail&amp;sharetype=blogdetail&amp;sharerId=132459418&amp;sharerefer=PC&amp;sharesource=2401_88569914&amp;sharefrom=from_link</a></p>
+<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><p>【【零成本】Hexo个人博客搭建教程 | 无需服务器-哔哩哔哩】 <a target="_blank" rel="noopener" href="https://b23.tv/FbUPVj6">https://b23.tv/FbUPVj6</a></p>
 
       
     </div>
